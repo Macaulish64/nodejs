@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>系统登录 - 空调管理系统</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/js.js"></script>
+</head>
+<body class="login_bg">
+<section class="loginBox">
+    <header class="loginHeader">
+        <h1>空调管理系统</h1>
+    </header>
+    <section class="loginCont">
+        <form class="loginForm" action="/login">
+            <div class="inputbox">
+                <label for="user">账号：</label>
+                <input id="user" type="text" name="username" placeholder="请输入账号名" required/>
+            </div>
+            <div class="inputbox">
+                <label for="password">密码：</label>
+                <input id="password" type="password" name="password" placeholder="请输入密码" required/>
+            </div>
+            <div class="suBBtn">
+                <input type="submit" class="inputButtontype" id="login" value="登录" />
+                <input type="reset" class="inputButtontype" id="login_reset" value="重置"/>
+            </div>
+
+        </form>
+    </section>
+</section>
+
+</body>
+</html>
